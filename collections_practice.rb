@@ -30,4 +30,4 @@ end
 end
 
 def find_a(array)
-  array.select {|i| 
+  array.select {|i| i.start_with
