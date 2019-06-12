@@ -10,4 +10,5 @@ def sort_array_char_count(array)
   array.sort_by {|x| x.length}
 end
 
-def swap
+def swap_elements(array)
+  array.swap {|x| x[1] x[2]}  
