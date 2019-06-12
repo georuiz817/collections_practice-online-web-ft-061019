@@ -30,4 +30,4 @@ end
 end
 
 def find_a(array)
-  array.find.begins_with(a?)
+  array.select {
