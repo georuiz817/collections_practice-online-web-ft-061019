@@ -36,3 +36,12 @@ end
 def sum_array(array)
 array.sum 
 end
+
+def add_s(array)
+  adder = [] 
+  add_s = word.add ""
+  word_array[1] = "s"
+  adder << word_array.join 
+end
+adder 
+end
